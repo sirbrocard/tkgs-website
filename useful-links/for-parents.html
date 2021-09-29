@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>For Parents</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css' integrity='sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l' crossorigin='anonymous'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel='shortcut icon' type='image/png' href='/img/favicon.ico'>
+    <link rel='stylesheet' href='/style/main.css'>
+    <link rel='stylesheet' href='/style/menu.css'>
+    <link rel='stylesheet' href='/style/totop_button.css'>
+    <link rel='stylesheet' href='/style/useful-links-specific.css'>
+    <link rel='stylesheet' href='/style/sidebar.css'>
+  </head>
+  <body>
+    <div id='arrowTop'>^<span> | Back To Top</span></div>
+    <nav class='navbar hiding_navbar navbar-expand-md ' id='main_menu'>
+    </nav>
+
+
+
+
+
+    
+
+    <section class='container' >
+      <img src='/img/about-us/TKGSwebbanners_FA29aug_1.jpg' alt='TKGS Banner About Us' class='banner' style='display:block;margin:auto;'>
+      <div class="row py-3">
+        <div class="d-none d-md-block col-md-3 col-lg-2  sidebar-navbar-menu">
+        </div>
+        <!--d-none -->
+        <div class='col-12 col-md-9 mt-3 content'>
+
+
+<!-- 
+<style>
+  .card {
+    filter:invert()
+  }
+  </style> -->
+
+      <h2>Useful Links For Parents</h2>
+      
+      
+<div class='row' id='useful-links-for-students'>
+</div>
+<script>
+  useful_links_for_student = [
+    'https://vle.learning.moe.edu.sg/login',
+    'https://lms.asknlearn.com/TKGS/logon_new.aspx',
+    'https://www.ace-learning.com/',
+    'https://childrenandteens.nlb.gov.sg/',
+    'https://schoolibrary.moe.edu.sg/tanjongkatonggirls/cgi-bin/spydus.exe/MSGTRN/WPAC/HOME',
+    
+  ]
+
+  useful_links_for_student_figcaption = [
+    "",
+    "ASKnLearn™ LMS",
+    "",
+    "NLB Discover Reads",
+    "TKGS Library Resources",
+]
+  text = "";
+  for (var i = 0; i < useful_links_for_student.length; i++) {
+
+    text +=  "<div class='col col-6 col-md-4'>"
+
+if (i < useful_links_for_student.length - 1) {
+      text += "<figure>"
+      text += "<a href='"+useful_links_for_student[i]+"'>"
+        
+text += "<img src='/img/useful-links/useful-links-for-students-"+i+".png' style='width:100%;' id='useful-links-for-students-"+i+"'>"
+text += "<p>" + useful_links_for_student_figcaption[i]+ "</p>"
+    
+text += "</a>"
+    text += "</figure>"
+      }
+
+      else {
+
+
+      text += "<a href='"+useful_links_for_student[i]+"' class='defaultButton btn ' role='button' style='width:100%;margin:10px 0;'>"+useful_links_for_student_figcaption[i]+"</a>"
+    
+
+      }
+
+    text += "</div>"
+  }
+
+
+  text += ""
+  document.getElementById("useful-links-for-students").innerHTML = text;
+  </script>
+
+<style>
+  #useful-links-for-students-4 {
+    width:100%;
+  }
+  @media (prefers-color-scheme: dark) { 
+  #useful-links-for-students-4 {
+  filter:invert(100%);
+  }
+}
+  </style>
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div> <!-- col-->
+      </div> <!-- row -->
+
+
+
+      <div class="d-block d-md-none col-md-3 col-lg-2  sidebar-navbar-menu">
+
+
+    </section>
+    <footer class='container-fluid'>
+      <p class='left-align'><b><a href='https://tkgs-moe-edu-sg-admin.cwp.sg/others/copyright' target=''>  Copyright</a>&nbsp;© 2019 Tanjong Katong Girls' School. </b>All rights reserved.<b> | 
+        <a href='/others/privacy-policy' target=''>Privacy Policy</a> | <a href='/others/faq' target=''>FAQ</a><span style='background-color: initial;'>|<a href='https://tkgs-moe-edu-sg-admin.cwp.sg/others/terms-of-use' target=''>Terms Of Use</a></span><span style='background-color: initial;'>|<a href='https://www.tech.gov.sg/report_vulnerability' target='_blank'>Report Vulnerability</a></span></b><span style='background-color: initial;'><b>&nbsp;</b>&nbsp;</span>
+      </p>
+    </footer>
+    <!-- Linking JQuery -->
+    <script src='https://code.jquery.com/jquery-3.6.0.min.js' integrity='sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=' crossorigin='anonymous'></script>
+    <!-- Linking Bootstrap Bundle(includes popper.js) -->
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js' integrity='sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns' crossorigin='anonymous'></script>
+    <!-- <script src='../script/totop_button.js'></script> -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='/script/menu.js'></script>
+    <script src='/script/totop_button.js'></script>
+    <script src='/script/useful-links-sidebar.js'></script>
+  </body>
+</html>

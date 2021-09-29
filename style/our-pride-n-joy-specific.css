@@ -1,0 +1,33 @@
+  
+          @media (prefers-color-scheme: dark) {
+            .card {
+              background-color: inherit;
+              border:1px solid white;
+            }
+            
+            }
+            @media (prefers-color-scheme: light) {
+             .card { border:2px solid #255D22;}
+            }
+            
+            .card-body {
+              border:none;
+            }
+            
+            
+figcaption {
+  text-align: left;
+}            
+/* 
+
+.sidebarnav-link {
+  color:red;
+}
+ */
+
+
+
+ 
+.our-pride-n-joy-sidebarnav-child .sidebarnav-link, .our-pride-n-joy-sidebarnav-child .sidebarnav-link:hover{
+  color:#A8F7C2;
+}

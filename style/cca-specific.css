@@ -1,0 +1,42 @@
+  
+          @media (prefers-color-scheme: dark) {
+.card {
+  background-color: inherit;
+  border:1px solid white;
+
+}
+  
+.cca-sidebarnav-child .sidebarnav-link, .cca-sidebarnav-child .sidebarnav-link:hover{
+  color:#A8F7C2;
+
+}
+
+}
+@media (prefers-color-scheme: light) {
+ .card { border:2px solid #255D22;}
+}
+
+.card-body {
+  border:none;
+}
+
+
+
+
+.carousel , .slide {
+  display:block;
+  margin:50px auto;
+
+max-width:500px;
+}
+.carousel-item {
+position:relative;
+
+}
+
+img {
+  border-radius:5px;
+  
+}
+
+
